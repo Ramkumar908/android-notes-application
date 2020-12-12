@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ride India</string>
+    <string name="register_image">RegisterImageView</string>
+    <string name="register_username">UserName</string>
+    <string name="register_userEmail">UserEmail</string>
+    <string name="register_userAddress">UserAddress</string>
+    <string name="register_userContact">UserContact</string>
+</resources>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/sName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Student  name"
+        android:textSize="16dp"
+        android:background="#11000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary" />
+
+
+
+    <EditText
+        android:id="@+id/sFathersName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="fathers name"
+        android:textSize="16dp"
+        android:background="#11000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/sName"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary" />
+
+
+    <EditText
+        android:id="@+id/sAdmNo"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Admission  Number"
+        android:textSize="16dp"
+        android:background="#11000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/sFathersName"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary" />
+
+
+    <EditText
+
+        android:id="@+id/sDateOfBirth"
+        android:clickable="true"
+        android:editable="false"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Date of Birth"
+        android:textSize="16dp"
+        android:background="#11000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/sAdmNo"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary"/>
+
+<!--    <EditText-->
+<!--        android:id="@+id/sDateOfBirth"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:hint="Date of Birth"-->
+<!--        android:textSize="16dp"-->
+<!--        android:background="#11000000"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginBottom="10dp"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:layout_below="@+id/sAdmNo"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:padding="10dp"-->
+<!--        android:textColor="@color/colorPrimary"-->
+<!--        android:textColorHighlight="@color/colorPrimaryDark"-->
+<!--        android:textColorHint="@color/colorPrimary" />-->
+
+
+    <EditText
+        android:id="@+id/sAddress"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Student Address"
+        android:textSize="16dp"
+        android:background="#11000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/sDateOfBirth"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary" />
+
+
+    <EditText
+        android:id="@+id/sBranch"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Student Branch"
+        android:textSize="16dp"
+        android:background="#11000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/sAddress"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/sSemester"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Student Semester"
+        android:textSize="16dp"
+        android:background="#11000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:inputType="textPersonName"
+        android:layout_below="@+id/sBranch"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary" />
+
+
+
+
+    <Button
+        android:id="@+id/chooseImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sSemester"
+        android:text="ChooseImage"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        android:textColorHint="@color/colorPrimary"/>
+
+
+
+
+
+
+
+
+<!--    <Button-->
+<!--        android:id="@+id/submit"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/chooseImage"-->
+<!--        android:text="Submit"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:padding="10dp"-->
+<!--        android:textColor="@color/colorPrimary"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:textColorHighlight="@color/colorPrimaryDark"-->
+<!--        android:textColorHint="@color/colorPrimary"/>-->
+
+</RelativeLayout>

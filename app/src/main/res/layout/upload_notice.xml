@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+     <EditText
+         android:id="@+id/admin_name"
+         android:layout_width="300dp"
+         android:layout_height="50dp"
+         android:hint="Student  name"
+         android:textSize="16dp"
+         android:background="#11000000"
+         android:layout_marginTop="20dp"
+         android:layout_marginBottom="10dp"
+         android:inputType="textPersonName"
+         android:layout_centerHorizontal="true"
+         android:padding="10dp"
+         android:textColor="@color/colorPrimary"
+         android:textColorHighlight="@color/colorPrimaryDark"
+         android:textColorHint="@color/colorPrimary" />
+
+
+     <Spinner
+         android:id="@+id/spinner1"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/admin_name"
+         android:layout_marginLeft="20dp"
+         android:layout_marginTop="37dp"
+         android:layout_marginBottom="10dp"
+         android:background="@android:drawable/btn_dropdown"
+         android:spinnerMode="dropdown"
+         android:tooltipText="Option1" />
+
+     <Spinner
+         android:id="@+id/spinner2"
+         android:layout_width="300dp"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/spinner1"
+         android:layout_marginLeft="20dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="10dp"
+         android:background="@android:drawable/btn_dropdown"
+         android:spinnerMode="dropdown"
+         android:tooltipText="Option1" />
+
+
+     <EditText
+
+         android:id="@+id/noticeDate"
+         android:clickable="true"
+         android:editable="false"
+         android:layout_width="300dp"
+         android:layout_height="50dp"
+         android:hint="Valid till"
+         android:textSize="16dp"
+         android:background="#11000000"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="10dp"
+         android:inputType="textPersonName"
+         android:layout_below="@+id/spinner2"
+         android:layout_centerHorizontal="true"
+         android:padding="10dp"
+         android:textColor="@color/colorPrimary"
+         android:textColorHighlight="@color/colorPrimaryDark"
+         android:textColorHint="@color/colorPrimary"/>
+
+
+     <Button
+         android:id="@+id/mynotice"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/noticeDate"
+         android:text="ChooseImage"
+         android:layout_centerHorizontal="true"
+         android:padding="10dp"
+         android:layout_marginLeft="20dp"
+         android:textColor="@color/colorPrimary"
+         android:textColorHighlight="@color/colorPrimaryDark"
+         android:textColorHint="@color/colorPrimary"/>
+
+
+     <EditText
+         android:id="@+id/show_path"
+         android:layout_width="300dp"
+         android:layout_height="50dp"
+         android:hint="choose path from above"
+         android:textSize="16dp"
+         android:background="#11000000"
+         android:layout_marginTop="20dp"
+         android:layout_marginBottom="10dp"
+         android:inputType="textPersonName"
+         android:layout_centerHorizontal="true"
+         android:padding="10dp"
+         android:layout_below="@+id/mynotice"
+         android:textColor="@color/colorPrimary"
+         android:textColorHighlight="@color/colorPrimaryDark"
+         android:textColorHint="@color/colorPrimary" />
+
+
+
+</RelativeLayout>
