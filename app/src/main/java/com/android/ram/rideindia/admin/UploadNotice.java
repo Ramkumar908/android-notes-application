@@ -110,7 +110,7 @@ public class UploadNotice extends AppCompatActivity {
                 startActivityForResult(intent,IMAGE_PICK_CODE);
               }
           });
-        Toast.makeText(this, "coming in Upload Notice page ", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "coming in Upload Notice page but not working right now", Toast.LENGTH_SHORT).show();
     }
 
     @Override
