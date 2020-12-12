@@ -87,7 +87,7 @@ public class UploadNotice extends AppCompatActivity {
 
               @Override
               public void onNothingSelected(AdapterView<?> parent) {
-                  Log.e("UploadNotice","Hey nothing is selected from the list");
+                  Log.e("UploadNotice","Hey nothing is selected from the list and also change something ");
                 }
           });
           noticeDate.setOnTouchListener(new View.OnTouchListener() {
